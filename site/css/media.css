@@ -138,8 +138,32 @@
 }
 
 /* Адаптив для contacts в header */
-@media (min-width: 2310px) {
-	.header__bg__content__sale__block {
-		background-position: -35px -58px;
+@media (max-width: 955px) {
+	.header__bg__content__contacts {
+		flex-direction: column;
+	}
+	.header__bg__content__contacts input {
+		margin-top: 20px;
+		margin-left: 0;
+	}
+	.header__bg__content__contacts button {
+		margin-top: 20px;
+		margin-left: 0;
+	}
+}
+@media (max-width: 845px) {
+	.header__bg__content__contacts input {
+		width: 30%;
+	}
+	.header__bg__content__contacts button {
+		width: 33%;
+	}
+}
+@media (max-width: 540px) {
+	.header__bg__content__contacts input {
+		width: 50%;
+	}
+	.header__bg__content__contacts button {
+		width: 53%;
 	}
 }
