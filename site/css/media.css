@@ -1,0 +1,145 @@
+@media (max-width: 1024px) {
+	.header__bg__content__top {
+		flex-direction: column;
+		text-align: center;
+	}
+	.header__bg__content__top__small-logo {
+		width: 100%;
+		text-align: center;
+	}
+	.header__bg__content__top__phone {
+		padding: 0;
+	}
+
+	.header__bg__content__logo__blocks{
+		width: 100%;
+		text-align: center;
+	}
+}
+/* Уменьшаю размер и поправляю надпись логотипа в header */
+@media (max-width: 484px) {
+	.header__bg__content__logo__blocks__block-center {
+		font-size: 30px;
+	}
+}
+@media (max-width: 453px) {
+	.header__bg__content__logo__blocks__block-center {
+		font-size: 25px;
+	}
+}
+
+@media (min-width: 680px) and (max-width: 720px) {
+	.header__bg__content__logo__blocks {
+		width: 55%;
+	}
+}
+
+@media (min-width: 1420px) {
+	.header__bg__content__logo__blocks {
+		width: 40%;
+	}
+}
+@media (min-width: 1730px) {
+	.header__bg__content__logo__blocks {
+		width: 33%;
+	}
+}
+@media (min-width: 1920px) {
+	.header__bg__content__logo__blocks {
+		width: 27%;
+	}
+}
+
+/* Делаю фон header всегда на 100% */
+@media (min-width: 1630px) {
+	.header__bg {
+		background-size: cover;
+	}
+}
+
+/* Ставлю блоки "best" колонной */
+@media (max-width: 948px) {
+	.header__bg__content__best__blocks {
+		width: 100%;
+		margin: 0 auto;
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+	}
+	.header__bg__content__best__blocks {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+
+
+/* Подправляю в sale надпись "акция 4:51" */
+@media (max-width: 364px) {
+	.header__bg__content__sale__block {
+		background-position: -55px -30px;
+	}
+}
+@media (min-width: 744px) and (max-width: 976px){
+	.header__bg__content__sale__block {
+		background-size: 1000px;
+	}
+}
+@media (max-width: 1260px) {
+	.header__bg__content__sale__block {
+		background-position: -55px -15px;
+	}
+}
+@media (max-width: 1220px) {
+	.header__bg__content__sale__block {
+		background-position: -90px -15px;
+	}
+}
+
+@media (min-width: 1500px) {
+	.header__bg__content__sale__block {
+		background-position: -35px -15px;
+	}
+}
+@media (min-width: 1660px) {
+	.header__bg__content__sale__block {
+		background-position: -35px -20px;
+	}
+}
+@media (min-width: 1780px) {
+	.header__bg__content__sale__block {
+		background-position: -35px -27px;
+	}
+}
+@media (min-width: 1900px) {
+	.header__bg__content__sale__block {
+		background-position: -35px -35px;
+	}
+}
+@media (min-width: 2010px) {
+	.header__bg__content__sale__block {
+		background-position: -35px -40px;
+	}
+}
+@media (min-width: 2110px) {
+	.header__bg__content__sale__block {
+		background-position: -35px -46px;
+	}
+}
+@media (min-width: 2220px) {
+	.header__bg__content__sale__block {
+		background-position: -35px -52px;
+	}
+}
+@media (min-width: 2310px) {
+	.header__bg__content__sale__block {
+		background-position: -35px -58px;
+	}
+}
+
+/* Адаптив для contacts в header */
+@media (min-width: 2310px) {
+	.header__bg__content__sale__block {
+		background-position: -35px -58px;
+	}
+}
