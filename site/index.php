@@ -32,7 +32,7 @@
 							Fisher<span class="header__bg__content__logo__blocks__block-center__text-selection">Go</span>Man
 						</div>
 						<div class="header__bg__content__logo__blocks__block-right">
-							+  плетеная лезка бесплатно
+							+  плетеная леска бесплатно
 						</div>
 					</div>
 				</div>
@@ -134,7 +134,7 @@
 						<div class="third__blocks__block-right__block-fourth">
 							<img src="img/third-4.png" alt="">
 							<p class="mus-sans300 child-2">Бланк удочки выполнен</p>
-							<p class="mus-sans300 child-3">из крепкого стекловолокна</p>
+							<p class="mus-sans300 child-3">из прочного стекловолокна</p>
 						</div>
 					</div>
 					<div class="third__blocks__block-right__block-two">
@@ -312,7 +312,7 @@
 		<div class="ninth__main-title mus-sans700 upper">Заказать FisherGoMan</div>
 		<div class="ninth__title">
 			<h5 class="mus-sans500 upper">Выбери размер своей удочки и сэкономь 500 рублей на следующей</h5> 
-			<h5 class="mus-sans300 upper">Плетенная лезка в подарок</h5>
+			<h5 class="mus-sans300 upper">Плетенная леска в подарок</h5>
 		</div>
 		<form action="send.php" method="post" class="ninth__order">
 			<!-- Hidden Required Fields -->
