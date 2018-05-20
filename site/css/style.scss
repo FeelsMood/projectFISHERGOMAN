@@ -111,6 +111,14 @@ body {
 							color: #fff;
 							background: #0088D6;
 						}
+						& a {
+							color: #0088D6;
+							text-decoration: none;
+							&:hover {
+								color: #fff;
+								background: #0088D6;
+							}
+						}
 					}
 				}
 			}

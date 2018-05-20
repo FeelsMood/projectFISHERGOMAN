@@ -306,78 +306,7 @@
 	}
 }
 
-@media (min-width: 1025px) and (max-width: 1044px) {
-	.third__blocks__block-right__block-one img {
-		width: 130px;
-	}
-	.third__blocks__block-right__block-fourth img {
-		width: 130px;
-	}
-}
-@media (min-width: 1045px) and (max-width: 1065px) {
-	.third__blocks__block-right__block-one img {
-		width: 130px;
-	}
-	.third__blocks__block-right__block-fourth img {
-		width: 130px;
-	}
-}
-@media (min-width: 1066px) and (max-width: 1085px) {
-	.third__blocks__block-right__block-one img {
-		width: 130px;
-	}
-	.third__blocks__block-right__block-fourth img {
-		width: 130px;
-	}
-}
-@media (min-width: 1086px) and (max-width: 1110px) {
-	.third__blocks__block-right__block-one img {
-		width: 130px;
-	}
-	.third__blocks__block-right__block-fourth img {
-		width: 130px;
-	}
-}
-@media (min-width: 1111px) and (max-width: 1129px) {
-	.third__blocks__block-right__block-one img {
-		width: 130px;
-	}
-	.third__blocks__block-right__block-fourth img {
-		width: 130px;
-	}
-}
-@media (min-width: 1130px) and (max-width: 1145px) {
-	.third__blocks__block-right__block-one img {
-		width: 130px;
-	}
-	.third__blocks__block-right__block-fourth img {
-		width: 130px;
-	}
-}
-@media (min-width: 1146px) and (max-width: 1180px) {
-	.third__blocks__block-right__block-one img {
-		width: 130px;
-	}
-	.third__blocks__block-right__block-fourth img {
-		width: 130px;
-	}
-}
-@media (min-width: 1181px) and (max-width: 1200px) {
-	.third__blocks__block-right__block-one img {
-		width: 130px;
-	}
-	.third__blocks__block-right__block-fourth img {
-		width: 130px;
-	}
-}
-@media (min-width: 1200px) and (max-width: 1210px) {
-	.third__blocks__block-right__block-one img {
-		width: 130px;
-	}
-	.third__blocks__block-right__block-fourth img {
-		width: 130px;
-	}
-}
+
 
 @media (max-width: 1024px) {
 	.third__blocks__block-right__blocks p{

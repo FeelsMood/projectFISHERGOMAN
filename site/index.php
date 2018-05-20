@@ -19,8 +19,8 @@
 					</div>
 					<div class="header__bg__content__top__phone">
 						<p>Звоните прямо сейчас</p> 
-						<p>8(945) 142-42-36</p>
-						<button class="header__bg__content__top__phone__btn">Обратный звонок</button>
+						<a>8(945) 142-42-36</p>
+						<button class="header__bg__content__top__phone__btn"><a href="tel:8(945) 142-42-36">Обратный звонок</a></button>
 					</div>
 				</div>
 				<div class="header__bg__content__logo">
@@ -54,7 +54,7 @@
 				</div>
 				<div class="header__bg__content__sale">
 					<div class="header__bg__content__sale__block">
-						<p class="upper mus-sans300">Акция<span class="mus-sans900">4:51</span></p>
+						<p class="upper mus-sans300">Акция<span class="mus-sans900" id="my_timer">5:00</span></p>
 						<p class="mus-sans100" style="margin-top: 40px;font-size: 12px;">Закажи удочку в течение 5 минут и получи скидку 10% на заказ.</p>
 					</div>
 				</div>
@@ -315,10 +315,10 @@
 			<h5 class="mus-sans300 upper">Плетенная лезка в подарок</h5>
 		</div>
 		<form action="send.php" method="post" class="ninth__order">
-			<p class="mus-sans300">2.1&nbsp;м.</p> 
-			<p class="mus-sans300">2.4&nbsp;м.</p>
-			<p class="mus-sans300">2.7&nbsp;м.</p>
-			<p class="mus-sans300">3.0&nbsp;м.</p>
+			<p class="mus-sans300 len1">2.1&nbsp;м.</p> 
+			<p class="mus-sans300 len2">2.4&nbsp;м.</p>
+			<p class="mus-sans300 len3">2.7&nbsp;м.</p>
+			<p class="mus-sans300 len4">3.0&nbsp;м.</p>
 			<div class="header__bg__content__contacts">
 				<input name="numb" type="text" placeholder="Введите ваш номер">
 				<button type="submit" class="upper">Заказать</button>
