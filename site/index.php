@@ -231,7 +231,7 @@
 					<div class="sixth__blocks__block__blocks__lef mus-sans500">Цена:</div>
 					<div class="sixth__blocks__block__blocks__righ mus-sans300">&nbsp;2490р.</div>
 				</div>
-				<button>Заказать</button>
+				<button class="mus-sans300 buy"><a class="mus-sans300 upper" href="#ninth">Заказать</a></button>
 			</div>
 			<div class="sixth__blocks__block">
 				<div class="sixth__blocks__block__blocks">
@@ -243,7 +243,7 @@
 					<div class="sixth__blocks__block__blocks__lef mus-sans500">Цена:</div>
 					<div class="sixth__blocks__block__blocks__righ mus-sans300">2690р.</div>
 				</div>
-				<button>Заказать</button>
+				<button class="mus-sans300 buy"><a class="mus-sans300 upper" href="#ninth">Заказать</a></button>
 			</div>
 			<div class="sixth__blocks__block">
 				<div class="sixth__blocks__block__blocks">
@@ -255,7 +255,7 @@
 					<div class="sixth__blocks__block__blocks__lef mus-sans500">Цена:</div>
 					<div class="sixth__blocks__block__blocks__righ mus-sans300">2890р.</div>
 				</div>
-				<button>Заказать</button>
+				<button class="mus-sans300 buy"><a class="mus-sans300 upper" href="#ninth">Заказать</a></button>
 			</div>
 			<div class="sixth__blocks__block">
 				<div class="sixth__blocks__block__blocks">
@@ -267,7 +267,7 @@
 					<div class="sixth__blocks__block__blocks__lef mus-sans500">Цена:</div>
 					<div class="sixth__blocks__block__blocks__righ mus-sans300">3190р.</div>
 				</div>
-				<button class="mus-sans300">Заказать</button>
+				<button class="mus-sans300 buy"><a class="mus-sans300 upper" href="#ninth">Заказать</a></button>
 			</div>
 		</div>
 	</div>
@@ -308,17 +308,28 @@
 		</div>
 	</div>
 
-	<div class="ninth">
+	<div class="ninth" id="ninth">
 		<div class="ninth__main-title mus-sans700 upper">Заказать FisherGoMan</div>
 		<div class="ninth__title">
 			<h5 class="mus-sans500 upper">Выбери размер своей удочки и сэкономь 500 рублей на следующей</h5> 
 			<h5 class="mus-sans300 upper">Плетенная лезка в подарок</h5>
 		</div>
 		<form action="send.php" method="post" class="ninth__order">
-			<p class="mus-sans300 len1">2.1&nbsp;м.</p> 
-			<p class="mus-sans300 len2">2.4&nbsp;м.</p>
-			<p class="mus-sans300 len3">2.7&nbsp;м.</p>
-			<p class="mus-sans300 len4">3.0&nbsp;м.</p>
+			<!-- Hidden Required Fields -->
+			<input type="hidden" name="project_name" value="bobs-trays.000webhostapp.com">
+			<input type="hidden" name="admin_email" value="noviygmul35@gmail.com">
+			<input type="hidden" name="form_subject" value=Заявка">
+			<!-- END Hidden Required Fields -->
+			<div class="card-type"> 
+		          <input class="hide" id="one" name="cardtype" type="radio" value="one"> 
+		          <label class="mus-sans300 len1" for="one">&nbsp;2.1м.</label> 
+		          <input class="hide" id="two" name="cardtype" type="radio" value="two">
+		          <label class="mus-sans300 len2" for="two">&nbsp;2.4м.</label> 
+		          <input class="hide" id="three" name="cardtype" type="radio" value="three"> 
+		          <label class="mus-sans300 len3" for="three">&nbsp;2.7м.</label>
+		          <input class="hide" id="four" name="cardtype" type="radio" value="four"> 
+		          <label class="mus-sans300 len4" for="four">&nbsp;3.0м.</label>
+     	 	</div>
 			<div class="header__bg__content__contacts">
 				<input name="numb" type="text" placeholder="Введите ваш номер">
 				<button type="submit" class="upper">Заказать</button>
@@ -362,6 +373,8 @@
 	</div>
 
 	<!-- script -->
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="script.js"></script>
 	<script src="js/script.js"></script>
 </body>
 </html>

@@ -536,6 +536,10 @@ body {
 .sixth {
 	background: #F5F5F5;
 	padding-bottom: 70px;
+	& .buy a{
+		text-decoration: none;
+		color: #fff;
+	}
 	& button {
 		color: #fff;
 		background: #3BC7C2;
@@ -674,6 +678,11 @@ body {
 
 // ninth
 .ninth {
+	& .card-type {
+		width: 50%;
+		display: flex;
+		align-items: center;
+	}
 	&__main-title {
 		text-align: center;
 		padding-top: 60px;
@@ -702,13 +711,17 @@ body {
 		margin: 0 auto;
 		border-bottom: 1px solid #D4D4D4;
 		padding-bottom: 65px;
-		& p {
+		& .hide {
+			display: none;
+		}
+		
+		& label {
 			border: 1px dashed #B5B5B5;  
 			margin-left: 14px;
 			border-radius: 12px;
 			padding: 4px;
-			padding-left: 16px;
-			padding-right: 16px;
+			padding-left: 14px;
+			padding-right: 14px;
 			color: #464545;
 			font-size: 14px;
 			cursor: pointer;

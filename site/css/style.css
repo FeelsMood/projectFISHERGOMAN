@@ -417,6 +417,9 @@ body {
 .sixth {
   background: #F5F5F5;
   padding-bottom: 70px; }
+  .sixth .buy a {
+    text-decoration: none;
+    color: #fff; }
   .sixth button {
     color: #fff;
     background: #3BC7C2;
@@ -523,6 +526,10 @@ body {
     .eighth__blocks img {
       width: 200px; }
 
+.ninth .card-type {
+  width: 50%;
+  display: flex;
+  align-items: center; }
 .ninth__main-title {
   text-align: center;
   padding-top: 60px;
@@ -547,13 +554,15 @@ body {
   margin: 0 auto;
   border-bottom: 1px solid #D4D4D4;
   padding-bottom: 65px; }
-  .ninth__order p {
+  .ninth__order .hide {
+    display: none; }
+  .ninth__order label {
     border: 1px dashed #B5B5B5;
     margin-left: 14px;
     border-radius: 12px;
     padding: 4px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 14px;
+    padding-right: 14px;
     color: #464545;
     font-size: 14px;
     cursor: pointer;
@@ -561,7 +570,7 @@ body {
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease; }
-    .ninth__order p:hover {
+    .ninth__order label:hover {
       background: #3BC7C2;
       -webkit-box-shadow: 0px 1px 30px 0px rgba(50, 50, 50, 0.39);
       -moz-box-shadow: 0px 1px 30px 0px rgba(50, 50, 50, 0.39);

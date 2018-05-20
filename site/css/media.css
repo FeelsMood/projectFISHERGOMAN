@@ -301,7 +301,7 @@
 	.third__blocks__block-right__block-fifth img {
 		margin: 0;
 		padding: 0;	
-		width: 45%;
+		width: 130px;
 		margin-top: 50px;
 	}
 }
@@ -416,10 +416,12 @@
 		text-align: center;
 	}
 	.ninth__order input {
-		width: 80%;
+		width: 70%;
 	}
 	.ninth__order .upper {
-		width: 80%;
+		width: 60%;
+		margin: 0 auto;
+		margin-top: 10px;
 	}
 }
 
