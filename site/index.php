@@ -8,7 +8,12 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
 </head>
+<!-- vue -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
 <body>
+<div class="wrapper" id="app">
 	<div class="header">
 		<div class="header__bg">
 			<div class="header__bg__content">
@@ -60,8 +65,8 @@
 				</div>
 				<div class="header__bg__content__contacts">
 					<input type="text" placeholder="Введите ваше имя">
-					<input type="text" placeholder="Введите ваш номер">
-					<button class="upper">Заказать</button>
+					<input type="text" placeholder="Введите ваш номер" v-model="numb">
+					<button class="upper"><a class="buy" href="#ninth">Заказать</a></button>
 				</div>
 			</div>
 		</div>
@@ -331,7 +336,7 @@
 		          <label class="mus-sans300 len4" for="four">&nbsp;3.0м.</label>
      	 	</div>
 			<div class="header__bg__content__contacts">
-				<input name="numb" type="text" placeholder="Введите ваш номер">
+				<input class="number" name="numb" type="text" placeholder="Введите ваш номер" v-model="numb">
 				<button type="submit" class="upper">Заказать</button>
 			</div>
 		</form>
@@ -371,7 +376,7 @@
 			</div>
 		</div>
 	</div>
-
+</div>
 	<!-- script -->
 	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="script.js"></script>

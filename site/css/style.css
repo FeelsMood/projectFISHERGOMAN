@@ -43,6 +43,11 @@ body {
   padding: 0;
   margin: 0; }
 
+.header .buy {
+  text-decoration: none;
+  color: #fff; }
+  .header .buy:hover {
+    color: #3BC7C2; }
 .header__bg {
   background: url(../img/header.png) no-repeat;
   height: auto;
@@ -420,6 +425,8 @@ body {
   .sixth .buy a {
     text-decoration: none;
     color: #fff; }
+    .sixth .buy a:hover {
+      color: #3BC7C2; }
   .sixth button {
     color: #fff;
     background: #3BC7C2;

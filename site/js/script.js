@@ -1,3 +1,10 @@
+var app = new Vue ({
+	el: "#app",
+	data: {
+		numb: 'g'
+	}
+});
+
 var linkNav = document.querySelectorAll('[href^="#"]'), //выбираем все ссылки к якорю на странице
     V = 1;  // скорость, может иметь дробное значение через точку (чем меньше значение - тем больше скорость)
 for (var i = 0; i < linkNav.length; i++) {
